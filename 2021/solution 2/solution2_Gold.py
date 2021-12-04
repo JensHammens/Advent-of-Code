@@ -1,7 +1,7 @@
 import os
 
 location = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
-input = open(os.path.join(location,'solutiondata.csv')).read()
+input = open(os.path.join(location,'solutiondata')).read()
 lines = input.split("\n")
 
 depth = 0
